@@ -1,0 +1,22 @@
+{
+  "vault_root": "/Users/waterprooftoaster/Documents/bsce",
+  "exclude_dirs": ["os lecture slides", "resources", ".claude"],
+  "exclude_files": ["init.md"],
+  "vocab_blocklist": [
+    "HLT", "JMP",
+    "EIP", "ESP", "RSP", "EAX", "EBX", "ECX", "EDX",
+    "CR0", "CR2", "CR3",
+    "syscall", "sysenter", "sysret"
+  ],
+  "vocab_required_prereqs": ["[[x86 assembly]]", "[[cpu]]"],
+  "handoff_prose_patterns": [
+    "^- See \\[\\[",
+    "\\(See \\[\\[",
+    "^- Mechanism in \\[\\[",
+    "^- Mechanism: .* in \\[\\["
+  ],
+  "calibration_files": [
+    "computer architecture/cache.md",
+    "computer architecture/hardware architecture.md"
+  ]
+}
